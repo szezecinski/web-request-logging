@@ -1,0 +1,14 @@
+﻿OBS: Executar no GitBash
+
+Passos:
+1) docker rodando
+2) montar o dockerfile (done)
+3) dotnet publish -c Release
+4) copiar o dockerfile pra dentro da pasta de release
+5) acessar a pasta "/c/Program Files/Docker Toolbox"
+6) heroku container:login
+7) Buildar a imagem: docker build -t dotnetcoreappfortesting C:\\app_name\\bin\\Release\\netcoreapp3.1
+8) Taguear a image: docker tag app_name registry.heroku.com/app_name/web
+9) criar o app no heroku
+10) Pushar a imagem pro heroku: docker push registry.heroku.com/app_name/web
+11) heroku container:release web --app app_name
