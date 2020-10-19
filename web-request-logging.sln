@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-request-logging", "web-request-logging\web-request-logging.csproj", "{FBE3E01C-B9BD-42D3-B2DD-C45DDF61C72E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE3E01C-B9BD-42D3-B2DD-C45DDF61C72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE3E01C-B9BD-42D3-B2DD-C45DDF61C72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE3E01C-B9BD-42D3-B2DD-C45DDF61C72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE3E01C-B9BD-42D3-B2DD-C45DDF61C72E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A897BA7-70C3-4C63-9A91-B673911561D0}
+	EndGlobalSection
+EndGlobal
